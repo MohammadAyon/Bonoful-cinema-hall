@@ -78,9 +78,16 @@ Bonoful Cinema Hall is a web-based application designed to provide a seamless ex
 
 ---
 
-## Contributing
+## ScreenShots 
+## Screenshots
 
-Contributions are welcome! If you want to contribute, please fork the repository and create a pull request with your changes. Ensure that your code follows the project's coding style and includes proper documentation.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0024cd66-0e4c-4f1f-802e-5c9aedc5ab9b" width="150" />
+  <img src="https://github.com/user-attachments/assets/19d3d31a-a4f4-44d5-9c1c-3d9d72e7c61b" width="150" />
+  <img src="https://github.com/user-attachments/assets/f4df9a14-afec-4312-a082-6a492cccf96a" width="150" />
+  <img src="https://github.com/user-attachments/assets/aaf9acc7-b49c-4d73-9139-1de8c43bdde2" width="150" />
+</p>
+
 
 ---
 
