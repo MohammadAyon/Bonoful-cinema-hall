@@ -33,38 +33,48 @@ Bonoful Cinema Hall is a web-based application designed to provide a seamless ex
 
 ---
 
-## Installation
+Installation (Using XAMPP)
+Download and Install XAMPP:
+Download XAMPP from Apache Friends and install it on your system.
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/MohammadAyon/Bonoful-cinema-hall.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd Bonoful-cinema-hall
-   ```
-3. Install dependencies (if applicable):
-   ```bash
-   composer install
-   npm install
-   ```
-4. Set up the environment variables:
-   - Copy `.env.example` to `.env` and fill in the database details.
+Clone the Repository:
+Open your terminal or Git Bash, and run the following command:
 
-5. Run database migrations:
-   ```bash
-   php artisan migrate
-   ```
+bash
+Copy code
+git clone https://github.com/MohammadAyon/Bonoful-cinema-hall.git
+Copy the Project to XAMPP’s htdocs Directory:
 
-6. Start the development server:
-   ```bash
-   php artisan serve
-   ```
+bash
+Copy code
+cp -r Bonoful-cinema-hall C:\xampp\htdocs\
+Start Apache and MySQL:
+Open the XAMPP control panel and click Start for both Apache and MySQL.
 
-7. Open the application in your browser:
-   ```
-   http://localhost:8000
-   ```
+Create the Database:
+
+Open your browser and go to http://localhost/phpmyadmin.
+Create a new database (e.g., bonoful_cinema).
+Import the provided SQL file (if available) into the newly created database.
+Configure the Environment File:
+
+Rename .env.example to .env in the project folder.
+Update the following database details:
+ini
+Copy code
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=bonoful_cinema
+DB_USERNAME=root
+DB_PASSWORD=
+Run the Application:
+Open your browser and navigate to:
+
+
+Copy code
+http://localhost/Bonoful-cinema-hall
+
 
 ---
 
