@@ -26,7 +26,7 @@ Bonoful Cinema Hall is a web-based application designed to provide a seamless ex
 ## Technologies Used
 
 - **Frontend:** HTML, CSS, JavaScript
-- **Backend:** PHP (Laravel or Core PHP)
+- **Backend:** PHP 
 - **Database:** MySQL
 - **Version Control:** Git and GitHub
 
@@ -112,23 +112,6 @@ Bonoful Cinema Hall is a web-based application designed to provide a seamless ex
    
 2. **Admin:**  
    Log in to the admin panel to manage movies, showtimes, and bookings. Generate sales and booking reports.
-
----
-
-## Screenshots
-
-
-
-<table>
-  <tr>
-    <td><img src="https://github.com/user-attachments/assets/0024cd66-0e4c-4f1f-802e-5c9aedc5ab9b" width="300" /></td>
-    <td><img src="https://github.com/user-attachments/assets/19d3d31a-a4f4-44d5-9c1c-3d9d72e7c61b" width="300" /></td>
-  </tr>
-  <tr>
-    <td><img src="https://github.com/user-attachments/assets/f4df9a14-afec-4312-a082-6a492cccf96a" width="300" /></td>
-    <td><img src="https://github.com/user-attachments/assets/aaf9acc7-b49c-4d73-9139-1de8c43bdde2" width="300" /></td>
-  </tr>
-</table>
 
 
 
