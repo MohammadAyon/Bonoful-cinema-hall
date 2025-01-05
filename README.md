@@ -1,4 +1,3 @@
-
 # Bonoful Cinema Hall 🎬
 
 Bonoful Cinema Hall is a web-based application designed to provide a seamless experience for movie lovers to explore showtimes, book tickets, and enjoy a modern movie-going experience. The system includes features for users, administrators, and cinema staff to manage bookings, view movies, and handle cinema operations efficiently.
@@ -27,56 +26,84 @@ Bonoful Cinema Hall is a web-based application designed to provide a seamless ex
 ## Technologies Used
 
 - **Frontend:** HTML, CSS, JavaScript
-- **Backend:** PHP, 
+- **Backend:** PHP (Laravel or Core PHP)
 - **Database:** MySQL
 - **Version Control:** Git and GitHub
 
 ---
 
-Installation (Using XAMPP)
-Download and Install XAMPP:
-Download XAMPP from Apache Friends and install it on your system.
+## Installation (Using XAMPP)
 
-Clone the Repository:
-Open your terminal or Git Bash, and run the following command:
+1. **Download and Install XAMPP:**  
+   Download XAMPP from [Apache Friends](https://www.apachefriends.org/index.html) and install it on your system.
 
-bash
-Copy code
-git clone https://github.com/MohammadAyon/Bonoful-cinema-hall.git
-Copy the Project to XAMPP’s htdocs Directory:
+2. **Clone the Repository:**  
+   Open your terminal or Git Bash, and run the following command:
+   ```bash
+   git clone https://github.com/MohammadAyon/Bonoful-cinema-hall.git
+   ```
 
-bash
-Copy code
-cp -r Bonoful-cinema-hall C:\xampp\htdocs\
-Start Apache and MySQL:
-Open the XAMPP control panel and click Start for both Apache and MySQL.
+3. **Copy the Project to XAMPP’s `htdocs` Directory:**  
+   ```bash
+   cp -r Bonoful-cinema-hall C:\xampp\htdocs\
+   ```
 
-Create the Database:
+4. **Start Apache and MySQL:**  
+   Open the XAMPP control panel and click **Start** for both Apache and MySQL.
 
-Open your browser and go to http://localhost/phpmyadmin.
-Create a new database (e.g., bonoful_cinema).
-Import the provided SQL file (if available) into the newly created database.
-Configure the Environment File:
+5. **Create the Database:**  
+   - Open your browser and go to `http://localhost/phpmyadmin`.
+   - Create a new database (e.g., `bonoful_cinema`).
+   - Import the provided SQL file (if available) into the newly created database.
 
-Rename .env.example to .env in the project folder.
-Update the following database details:
-ini
-Copy code
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=bonoful_cinema
-DB_USERNAME=root
-DB_PASSWORD=
-Run the Application:
-Open your browser and navigate to:
+6. **Configure the Environment File:**  
+   - Rename `.env.example` to `.env` in the project folder.
+   - Update the following database details:
+     ```ini
+     DB_CONNECTION=mysql
+     DB_HOST=127.0.0.1
+     DB_PORT=3306
+     DB_DATABASE=bonoful_cinema
+     DB_USERNAME=root
+     DB_PASSWORD=
+     ```
 
-
-Copy code
-http://localhost/Bonoful-cinema-hall
-
+7. **Run the Application:**  
+   Open your browser and navigate to:
+   ```
+   http://localhost/Bonoful-cinema-hall
+   ```
 
 ---
+
+### UI Preview
+
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+
+  <div style="flex: 1 1 calc(50% - 10px);">
+      <img src="https://github.com/user-attachments/assets/0024cd66-0e4c-4f1f-802e-5c9aedc5ab9b" alt="Front UI" width="100%">
+      <p align="center"><b>Front UI</b></p>
+  </div>
+
+  <div style="flex: 1 1 calc(50% - 10px);">
+      <img src="https://github.com/user-attachments/assets/19d3d31a-a4f4-44d5-9c1c-3d9d72e7c61b" alt="Booking" width="100%">
+      <p align="center"><b>Booking</b></p>
+  </div>
+
+  <div style="flex: 1 1 calc(50% - 10px);">
+      <img src="https://github.com/user-attachments/assets/f4df9a14-afec-4312-a082-6a492cccf96a" alt="Admin" width="100%">
+      <p align="center"><b>Admin</b></p>
+  </div>
+
+  <div style="flex: 1 1 calc(50% - 10px);">
+      <img src="https://github.com/user-attachments/assets/aaf9acc7-b49c-4d73-9139-1de8c43bdde2" alt="Movie List Admin" width="100%">
+      <p align="center"><b>Movie List Admin</b></p>
+  </div>
+
+</div>
+
+
 
 ## Usage
 
